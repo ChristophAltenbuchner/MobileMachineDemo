@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Main_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+
+
+
+		
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:RevolutionWidget" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="RadialGauge1" attribute="value" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:AmbientTemperature" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputAmbientTemperature" attribute="node" />
+</Binding>
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:BatteryDischarge" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageBattery" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:CheckAlarmImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageTemperatureHigh" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:CheckAlarmImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageChassis" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:CheckAlarmImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageOil" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:CuttingImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageSaw" attribute="visible" />
+</Binding>
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.WorkingHours" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputWorkingHours" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.TankLevel" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ProgressBarPetrol" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.MusicVolume" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="BasicSliderMusicVolume" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.AirConditioner" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="BasicSliderAirConditioning" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:TirePressureImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageTirePessure" attribute="visible" />
+
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:BrakeImage" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ImageBrake" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.EngineTemperature" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputEngineTemp" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.TankLevel" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputPetrol" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.EngineRevolution" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputEngineSpeed" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.Velocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="NumericOutputVelocity" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.EngineTemperature" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="ProgressBarEngineTemp" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:MobileMachine.Parameter.Velocity" attribute="node" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="RadialGauge2" attribute="node" />
+</Binding>
+</Bindings>
+</BindingsSet>

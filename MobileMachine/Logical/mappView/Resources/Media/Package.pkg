@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">SymbolLib</Object>
+    <Object Type="File">BnR_Logo_Tagline_left.svg</Object>
+    <Object Type="File">Handbreak.png</Object>
+    <Object Type="Package">SymbolLibSkyline</Object>
+    <Object Type="File">petrol.svg</Object>
+    <Object Type="File">chassis.svg</Object>
+    <Object Type="File">battery-.svg</Object>
+    <Object Type="File">temperature.svg</Object>
+    <Object Type="File">oil.svg</Object>
+    <Object Type="File">VolumeHigh.svg</Object>
+    <Object Type="File">VolumeLow.svg</Object>
+    <Object Type="File">bluetooth.svg</Object>
+    <Object Type="File">fan.svg</Object>
+    <Object Type="File">plus.svg</Object>
+    <Object Type="File">minus.svg</Object>
+    <Object Type="File">rabbit.svg</Object>
+    <Object Type="File">turtle.svg</Object>
+    <Object Type="File">snail.svg</Object>
+    <Object Type="File">car-lights1.svg</Object>
+    <Object Type="File">car-lights2.svg</Object>
+    <Object Type="File">saw.svg</Object>
+    <Object Type="File">EngineTemperature.svg</Object>
+    <Object Type="File">NavigationPic1.png</Object>
+    <Object Type="File">tire-pressure.svg</Object>
+    <Object Type="File">brake.svg</Object>
+  </Objects>
+</Package>
