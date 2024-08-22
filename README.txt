@@ -1,4 +1,4 @@
-First release:
+First release v1.0:
 
 Target is to offer a AS demonstrator for ​
 	-sales to present mobile specific features to a customer​
